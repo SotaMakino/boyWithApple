@@ -1,0 +1,10 @@
+
+
+<div id="a-body">
+<% @movies.each do |movie| %>
+<% image = image_tag "wes_#{movie.id}.jpg", :size =>'320x480' %>
+<%= link_to image, movie %>
+<% end %>
+</div>
+
+<%= render :partial => "dog" %>
