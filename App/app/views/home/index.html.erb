@@ -1,0 +1,12 @@
+<div id="top">
+<h1>Boy with Apple</h1>
+</div>
+
+<div id="a-body">
+<% i = 1 %>
+<% while i < 10 do %>
+<% @image = image_tag "wes_#{i}.jpg", :size =>'320x480' %>
+<% i += 1 %>
+<%= @image %>
+<% end %>
+</div>
