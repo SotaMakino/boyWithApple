@@ -8,6 +8,12 @@
   width : 1000px ;
 }
 
+#show-body {
+  text-align: center;
+  font-size: 25px;
+  color: #666699;
+}
+
 header h1{
   text-align: center;
   color: #FFFACD;
@@ -24,8 +30,6 @@ footer {
   color: #666633;
   text-align: center;
 }
-
-
 
 body {
   font-size: 15px;

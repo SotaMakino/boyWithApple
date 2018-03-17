@@ -1,5 +1,11 @@
-<%= @movies.title %>
+
+<div id='show-body'>
+<p><%= @movies.title %></p>
+
+
 <iframe width="560" height="315" src="<%= @movies.video %>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-<%= link_to 'Back', root_path %>
+<p><%= link_to 'Back', root_path %></p>
+
+</div>
